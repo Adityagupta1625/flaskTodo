@@ -1,0 +1,11 @@
+body::before{
+    content: "";
+    background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+    position: absolute;
+    height: 63%;
+    width: 100%;
+    top: 0;
+    left:0;
+    opacity:0.85;
+    z-index: -1;
+}

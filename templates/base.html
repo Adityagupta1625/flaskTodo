@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body::before {
+
+            content: "";
+            background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        #reg {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 543px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #reg{
+                width:80%;
+            }
+        }
+
+        #form {
+            width: 100%;
+        }
+
+        #reg input {
+            width: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.2rem;
+            padding: 4px 12px;
+            margin: 4px;
+            border-radius: 8px;
+        }
+
+        #reg label {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.2rem;
+
+        }
+
+        #size1 {
+            font-size: 1.2rem;
+        }
+
+        #size {
+            font-size: 1.1rem;
+        }
+
+        #head {
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 2.3rem;
+        }
+
+        #log {
+            display: inline-block;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>{% block title %} {% endblock title %} - MyTodo</title>
+</head>
+
+<body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    {% block body %}
+
+    {% endblock body %}
+</body>
+
+</html>
