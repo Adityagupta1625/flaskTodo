@@ -1,5 +1,5 @@
-<h1>Game Js</h1>
-<p>This is simple todo app with login system made in flask </p>
+<h1>Flask Todo</h1>
+<p>This is simple todo app with login system made in flask.This can used to make Todo list with features like update and delete.</p>
 <h3>Technology used</h3>
 <ul>
 <li>HTML5</li>
