@@ -12,7 +12,7 @@
 <h3>Installation</h3>
 <p></p>
 <h4>You can clone it use it by installing python and required modules given in requirements.txt<br>
-Use gitClone:https://github.com/Adityagupta1625/flasktodo.git
+Use git clone: https://github.com/Adityagupta1625/flasktodo.git
 </h4>
 
 <h5>check out the site here:</h5>
