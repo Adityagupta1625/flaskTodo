@@ -11,7 +11,9 @@
 </ul>
 <h3>Installation</h3>
 <p></p>
-
+<h4>You can clone it use it by installing python and required modules given in requirements.txt
+use 
+</h4>
 
 <h5>check out the site here:</h5>
 https://todoaditya.herokuapp.com/
